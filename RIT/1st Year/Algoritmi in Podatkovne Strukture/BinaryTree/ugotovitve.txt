@@ -1,0 +1,9 @@
+LOAD TIMES (average over 5 loads):
+mini: 22ms
+minisorted: 196.6ms
+full: 6972ms
+fullsorted: "traja predolgo"
+
+FIND TIMES (debug build because release is too fast, average over 5 times per 100000 searches):
+mini: 46.8ms
+minisorted: 10406ms

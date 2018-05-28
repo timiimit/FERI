@@ -1,0 +1,12 @@
+﻿  main.cpp
+main.cpp(229): warning C4326: return type of 'main' should be 'int' instead of 'void'
+main.cpp(361): warning C4018: '<': signed/unsigned mismatch
+main.cpp(384): warning C4018: '<': signed/unsigned mismatch
+main.cpp(395): warning C4018: '<': signed/unsigned mismatch
+main.cpp(407): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  10 of 26 functions (38.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DLList.vcxproj -> C:\Users\timi\VisualStudioProjects\APS\x64\Release\DLList.exe

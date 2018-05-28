@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\timi\visualstudioprojects\schoolprog2\ara02 - kmp\main.cpp(17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\timi\visualstudioprojects\schoolprog2\ara02 - kmp\main.cpp(18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\timi\visualstudioprojects\schoolprog2\ara02 - kmp\main.cpp(77): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+c:\users\timi\visualstudioprojects\schoolprog2\ara02 - kmp\main.cpp(85): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  ARA02 - KMP.vcxproj -> C:\Users\timi\VisualStudioProjects\SchoolProg2\x64\Debug\ARA02 - KMP.exe

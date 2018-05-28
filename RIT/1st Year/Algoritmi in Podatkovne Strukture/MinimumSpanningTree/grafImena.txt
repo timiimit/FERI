@@ -1,0 +1,16 @@
+10
+14
+Koper Ljubljana 120
+Maribor Ljubljana 100
+Celje Maribor 60
+Celje Ljubljana 60
+Postojna Ajdovscina 30
+Koper Postojna 50
+Ljubljana Postojna 50
+Ptuj Maribor 20
+Ormoz Ptuj 10
+Maribor Lenart 16
+Lenart Murska_Sobota 50
+Ormoz Murska_Sobota 20
+Maribor Ormoz 40
+Murska_Sobota Maribor 80

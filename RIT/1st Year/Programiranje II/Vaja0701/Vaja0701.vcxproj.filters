@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Account.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="VerifiedAccount.cpp" />
+    <ClCompile Include="Person.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="VerifiedAccount.h" />
+    <ClInclude Include="Person.h" />
+  </ItemGroup>
+</Project>

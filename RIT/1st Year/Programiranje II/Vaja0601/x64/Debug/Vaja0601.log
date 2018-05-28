@@ -1,0 +1,3 @@
+﻿  Main.cpp
+\\robi-pc\timi\visualstudioprojects\schoolprog2\vaja0601\main.cpp(8): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Vaja0601.vcxproj -> \\ROBI-PC\timi\VisualStudioProjects\SchoolProg2\x64\Debug\Vaja0601.exe

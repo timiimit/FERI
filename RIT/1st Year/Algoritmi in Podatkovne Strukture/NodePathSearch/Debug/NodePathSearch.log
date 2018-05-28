@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\timi\visualstudioprojects\aps\nodepathsearch\main.cpp(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\nodepathsearch\main.cpp(92): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\nodepathsearch\main.cpp(104): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\nodepathsearch\main.cpp(136): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\nodepathsearch\main.cpp(178): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\nodepathsearch\main.cpp(250): warning C4018: '<': signed/unsigned mismatch
+  NodePathSearch.vcxproj -> C:\Users\timi\VisualStudioProjects\APS\Debug\NodePathSearch.exe

@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\timi\visualstudioprojects\aps\dllist\main.cpp(27): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\timi\visualstudioprojects\aps\dllist\main.cpp(159): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\dllist\main.cpp(182): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\dllist\main.cpp(193): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\dllist\main.cpp(205): warning C4018: '<': signed/unsigned mismatch
+  DLList.vcxproj -> C:\Users\timi\VisualStudioProjects\APS\Debug\DLList.exe

@@ -1,0 +1,7 @@
+﻿  Vetrnica.cpp
+c:\users\timi\visualstudioprojects\schoolprog2\vaja0201b\vetrnica.cpp(77): warning C4244: 'argument': conversion from 'const float' to 'char', possible loss of data
+c:\users\timi\visualstudioprojects\schoolprog2\vaja0201b\vetrnica.cpp(79): warning C4244: 'argument': conversion from 'const float' to 'char', possible loss of data
+  main.cpp
+c:\users\timi\visualstudioprojects\schoolprog2\vaja0201b\main.cpp(7): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  Vaja0201B.vcxproj -> C:\Users\timi\VisualStudioProjects\SchoolProg2\Debug\Vaja0201B.exe

@@ -1,0 +1,7 @@
+﻿  Besedilo.cpp
+c:\users\timi\visualstudioprojects\schoolprog2\vaja0402\besedilo.cpp(87): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\schoolprog2\vaja0402\besedilo.cpp(90): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\schoolprog2\vaja0402\besedilo.cpp(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\schoolprog2\vaja0402\besedilo.cpp(137): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\schoolprog2\vaja0402\besedilo.cpp(156): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\schoolprog2\vaja0402\besedilo.cpp(82): warning C4715: 'Besedilo::prestejSteviloBesed': not all control paths return a value

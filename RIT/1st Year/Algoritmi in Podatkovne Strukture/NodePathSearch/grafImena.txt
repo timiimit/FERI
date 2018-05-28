@@ -1,0 +1,16 @@
+10
+14
+Koper Ljubljana 1
+Maribor Ljubljana 1
+Celje Maribor 1
+Celje Ljubljana 1
+Postojna Ajdovscina 1
+Koper Postojna 1
+Ljubljana Postojna 1
+Ptuj Maribor 1
+Ormoz Ptuj 1
+Maribor Lenart 1
+Lenart Murska_Sobota 1
+Ormoz Murska_Sobota 1
+Maribor Ormoz 1
+Murska_Sobota Maribor 1

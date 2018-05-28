@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\timi\visualstudioprojects\aps\binarytree\main.cpp(678): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  BinaryTree.vcxproj -> C:\Users\timi\VisualStudioProjects\APS\Debug\BinaryTree.exe

@@ -1,0 +1,12 @@
+﻿  main.cpp
+c:\users\timi\visualstudioprojects\aps\minimumspanningtree\main.cpp(194): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\minimumspanningtree\main.cpp(367): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\minimumspanningtree\main.cpp(387): warning C4267: '=': conversion from 'size_t' to 'ushort', possible loss of data
+c:\users\timi\visualstudioprojects\aps\minimumspanningtree\main.cpp(398): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\minimumspanningtree\main.cpp(433): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\minimumspanningtree\main.cpp(435): warning C4018: '>': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\minimumspanningtree\main.cpp(513): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\minimumspanningtree\main.cpp(518): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\minimumspanningtree\main.cpp(520): warning C4018: '<': signed/unsigned mismatch
+c:\users\timi\visualstudioprojects\aps\minimumspanningtree\main.cpp(580): warning C4018: '<': signed/unsigned mismatch
+  MinimumSpanningTree.vcxproj -> C:\Users\timi\VisualStudioProjects\APS\Debug\MinimumSpanningTree.exe

@@ -1,0 +1,10 @@
+﻿  main.cpp
+main.cpp(27): warning C4326: return type of 'main' should be 'int' instead of 'void'
+main.cpp(159): warning C4018: '<': signed/unsigned mismatch
+main.cpp(182): warning C4018: '<': signed/unsigned mismatch
+main.cpp(193): warning C4018: '<': signed/unsigned mismatch
+main.cpp(205): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  All 26 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DLList.vcxproj -> C:\Users\timi\VisualStudioProjects\APS\Release\DLList.exe

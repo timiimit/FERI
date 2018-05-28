@@ -1,0 +1,27 @@
+vse operacije so bile izvedene s 1000000 elementi
+
+BUILD: debug x86
+vstavljanje v glavo seznama						172ms
+vstavljanje na prvo mesto v polje				56 sekund
+vstavljanje na konec polja je trajal 			0ms
+izračuna vsote elementov (ključev) iz seznama	16ms
+izračuna vsote vrednosti iz polja				0ms
+
+BUILD: release x86
+vstavljanje v glavo seznama						42ms
+vstavljanje na prvo mesto v polje				54 sekund
+vstavljanje na konec polja je trajal 			0ms
+izračuna vsote elementov (ključev) iz seznama	15ms
+izračuna vsote vrednosti iz polja				0ms
+
+BUILD: release x64
+vstavljanje v glavo seznama						47ms
+vstavljanje na prvo mesto v polje				55 sekund
+vstavljanje na konec polja je trajal 			0ms
+izračuna vsote elementov (ključev) iz seznama	0ms
+izračuna vsote vrednosti iz polja				0ms
+
+Ugotovitve
+za vstavljanje v glavo je najuporabnejsi seznam.
+za premikanje skozi vrednosti je najhitrejse polje.
+za dodajanje vrednosti na konec je najhitrejse polje.
