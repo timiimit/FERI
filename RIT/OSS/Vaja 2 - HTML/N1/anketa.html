@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Anketa</title>
+</head>
+<body>
+	<form action="http://uss.feri.um.si/ShoutBox/Obdelaj.aspx" method="GET">
+		Ime: <input type="text" name="txtName" required /><br />
+		Priimek: <input type="text" name="txtLastName" required /><br />
+		Datum rojstva: <input type="date" name="txtBirthdate" autocomplete="on" required /><br />
+		Kraj rojstva: <input type="text" name="txtKraj" list="locations"/><br />
+		Elektronska pošta: <input type="email" name="txtEmail" required /><br />
+		Telefonska številka: <input type="text" name="txtTelNum" pattern="\d{9}" /><br />
+		Stopnja študija:
+		<input type="radio" name="edulvl" value="1" />Prva stopnja
+		<input type="radio" name="edulvl" value="2" />Druga stopnja
+		<input type="radio" name="edulvl" value="3" />Tretja stopnja
+		<br />
+		Področja zanimanja:
+		<input type="checkbox" name="interest" value="asp.net" />Asp.Net
+		<input type="checkbox" name="interest" value="php" />php
+		<input type="checkbox" name="interest" value="ruby" />Ruby
+		<input type="checkbox" name="interest" value="java" />java
+		<input type="checkbox" name="interest" value="phyton" />Phyton
+		<br />
+		Komentar:
+		<textarea cols="100" rows="10"></textarea>
+		<input type="submit" name="btnSend"/>
+
+		<datalist id="locations">
+			<option value="Ljubljana" />
+			<option value="Maribor" />
+			<option value="Celje" />
+			<option value="Kranj" />
+			<option value="Velenje" />
+		</datalist>
+	</form>
+</body>
+</html>

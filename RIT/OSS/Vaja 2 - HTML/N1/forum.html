@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Forum</title>
+</head>
+<body>
+	<h1>Forum</h1>
+	<a href="index.html">Prva Stran</a>
+	<a href="anketa.html">Anketa</a>
+	<form action="http://uss.feri.um.si/ShoutBox/ShoutBox.aspx" method="post">
+		Vzdevek: <input type="text" name="txtVzdevek" /><br />
+		Kategorija
+		<select name="selLokacija">
+			<option value="Slovenia">Slovenija</option>
+			<option value="World">Svet</option>
+			<option value="economy">Gospodarstvo</option>
+			<option value="IT">IT</option>
+		</select><br />
+		Sporočilo:
+		<textarea name="txtSporocilo" rows="10" cols="100"></textarea><br />
+		<input name="poslji" type="submit" />
+	</form>
+</body>
+</html>

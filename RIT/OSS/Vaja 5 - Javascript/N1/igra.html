@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<style>
+			.imgHidden {
+				visibility: hidden;
+			}
+
+			.imgVisible {
+				visibility: visible;
+			}
+
+			table td {
+				border-collapse: collapse;
+				border: 2px solid cornflowerblue;
+			}
+
+			img {
+				width: 100px;
+				height: 100px;
+			}
+		</style>
+		<script src="igra.js"></script>
+	</head>
+	<body>
+		<div class="top">
+			<input type="text" id="username" placeholder="Username" onblur="usernameChanged(this)" /><br />
+			<select id="difficulty" onchange="difficultyChanged(this)">
+				<option value="43">4x3</option>
+				<option value="44">4x4</option>
+				<option value="54">5x4</option>
+				<option value="64">6x4</option>
+				<option value="65">6x5</option>
+			</select><br />
+			<input type="button" onclick="start();" value="Start" />
+		</div>
+		<table id="game" class="playarea">
+		</table>
+		<div id="bottom">
+			<input type="button" value="rezultati" id="btnResults" onclick="showResults();" />
+		</div>
+	</body>
+</html>

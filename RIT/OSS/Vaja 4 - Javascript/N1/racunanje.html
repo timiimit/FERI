@@ -1,0 +1,32 @@
+﻿<html>
+<head>
+	<script type="text/javascript">
+		var x = parseInt(window.prompt("Enter X:"));
+		var y = parseInt(window.prompt("Enter Y:"));
+
+		document.write("<html><head><style>.Pozitivno{color:green;font-weight:bold;}.Negativno{color:red;font-weight:bold;}</style></head><body><p>");
+		if (!isNaN(x) && !isNaN(y))
+		{
+			document.write("<span class='" + (x >= 0 ? "Pozitivno" : "Negativno") + "'>X = " + x + "</span>" + "<br />");
+			document.write("<span class='" + (y >= 0 ? "Pozitivno" : "Negativno") + "'>Y = " + y + "</span>" + "<br />");
+			document.write("X je <strong>" + (x == y ? "enak" : (x > y ? "večji" : "manjši")) + "</strong><br />");
+			document.write("X + Y = " + (x + y) + "<br />");
+			document.write("X - Y = " + (x - y) + "<br />");
+			document.write("X * Y = " + (x * y) + "<br />");
+
+			if (y == 0)
+			{
+				document.write("<span class='Negativno'>Y is zero</span>");
+			}
+			else
+			{
+				document.write("X / Y = " + (x / y) + "<br />");
+				document.write("X % Y = " + (x % y) + "<br />");
+			}
+		}
+		document.write("</p></body></html>");
+	</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<html>
+<head>
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="opravila.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="text-center">Opravila</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3">
+				<h2>Kategorije</h2>
+				<div class="btn-group">
+					<input id="txtNewCategoryName" type="text" class="btn" placeholder="Nova kategorija" />
+					<button class="btn" onclick="AddCategory();">Dodaj</button>
+				</div>
+				<ul id="listCategories" class="list-group"></ul>
+			</div>
+			<div class="col-md-9">
+				<h2>Seznam</h2>
+				<div class="btn-group">
+					<input id="txtNewTaskName" type="text" class="btn" placeholder="Novo opravilo" />
+					<button class="btn" onclick="AddTask();">Dodaj</button>
+				</div>
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Opravilo</th>
+							<th>Kategorija</th>
+							<th>Datum vnosa</th>
+						</tr>
+					</thead>
+					<tbody id="listTasks"></tbody>
+				</table>
+
+				<button class="btn btn-danger" onclick="RemoveSelectedTasks();">Odstrani</button>
+			</div>
+		</div>
+
+		<div class="row">
+		</div>
+	</div>
+</body>
+</html>

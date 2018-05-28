@@ -1,0 +1,121 @@
+#Nav {
+	list-style-image: url(smiley.png);
+}
+
+.commodo {
+	text-decoration: underline;
+}
+
+#Vsebina {
+	display: inline;
+	float: left;
+}
+
+#Vsebina div:nth-child(n+2):nth-child(-n+3) h2 {
+	background-color: rgb(123, 123, 123);
+	margin: 0px;
+}
+
+#Vsebina div:nth-child(n+4) p span:nth-child(1) {
+	text-decoration: underline overline;
+	color: blue;
+}
+
+#Vsebina div:nth-child(n+4) p span:nth-child(2) {
+	text-decoration: none;
+	color: blue;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+/* not sure its ok */
+#Vsebina div:nth-child(n+1) {
+	width: 400px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#Vsebina div:nth-child(n+2):nth-child(-n+3) {
+	border: 2px dashed red;
+	height: 200px;
+}
+
+#Vsebina div:nth-child(n+2):nth-child(-n+3) p {
+	height: 140px;
+	overflow: scroll;
+}
+
+@media screen and (max-width: 400px)
+{
+	body {
+		background-color: blue;
+	}
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.Lorem {
+	font-family: 'Roboto';
+}
+
+#Tretji, #Peti {
+	border-left: 2px solid green;
+}
+
+#Tretji, #Cetrti, #Peti, #Sesti {
+	border-right: 2px solid purple;
+}
+
+#Vsebina div {
+	overflow: auto;
+	display: inline-block;
+	width: 600px;
+}
+
+#Nav {
+	float: left;
+	display: inline;
+	position: fixed;
+	top: 46px;
+	width: 202px;
+	border: 1px solid purple;
+}
+#Vsebina {
+	float: left;
+	display: inline;
+	margin-left: 210px;
+}
+
+#Vsebina > :nth-child(2n+0) {
+	float: left;
+	clear: left;
+	text-shadow: 3px 3px 4px black;
+}
+
+#Vsebina > :nth-child(2n+1) {
+	float: left;
+	clear: right;
+	top: -40px;
+}
+
+body {
+	background-image: url("sun.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+

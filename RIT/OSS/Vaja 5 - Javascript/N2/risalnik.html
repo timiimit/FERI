@@ -1,0 +1,103 @@
+<html>
+<head>
+	<style>
+		canvas {
+			border: 1px solid black;
+		}
+	</style>
+	<script>
+		var deviceContext;
+		var points = new Array();
+		var drawMode;
+
+		onload = function ()
+		{
+			var eCanvas = document.getElementById("canvas");
+			deviceContext = canvas.getContext("2d");
+			drawMode = 0;
+			deviceContext.lineWidth = 2;
+		}
+
+		function SetDrawMode(mode)
+		{
+			drawMode = mode;
+			points = new Array();
+		}
+
+		function Draw(event)
+		{
+			switch (drawMode)
+			{
+				case 0:
+					deviceContext.beginPath();
+					deviceContext.arc(event.clientX, event.clientY, 10, 0, Math.PI * 2);
+					deviceContext.fill();
+					points = new Array();
+					break;
+
+				case 1:
+					if (points.length == 0)
+					{
+						points.push(event.clientX);
+						points.push(event.clientY);
+					}
+					else if (points.length == 2)
+					{
+						deviceContext.beginPath();
+						deviceContext.moveTo(points[0], points[1]);
+						deviceContext.lineTo(event.clientX, event.clientY);
+						deviceContext.stroke();
+						points = new Array();
+					}
+					break;
+
+				case 2:
+					if (points.length == 0)
+					{
+						points.push(event.clientX);
+						points.push(event.clientY);
+					}
+					else if (points.length == 2)
+					{
+						deviceContext.beginPath();
+						var r = Math.sqrt((event.clientX - points[0]) * (event.clientX - points[0]) + (event.clientY - points[1]) * (event.clientY - points[1]));
+						deviceContext.arc(points[0], points[1], r, 0, Math.PI * 2);
+						deviceContext.fill();
+						deviceContext.stroke();
+						points = new Array();
+					}
+					break;
+
+				case 3:
+					if (points.length == 0)
+					{
+						points.push(event.clientX);
+						points.push(event.clientY);
+					}
+					else if (points.length == 2)
+					{
+						deviceContext.beginPath();
+						var width = event.clientX - points[0];
+						var height = event.clientY - points[1];
+						deviceContext.rect(points[0], points[1], width, height);
+						deviceContext.fill();
+						deviceContext.stroke();
+						points = new Array();
+					}
+					break;
+			}
+
+		}
+	</script>
+</head>
+<body>
+	<canvas id="canvas" onclick="Draw(event);" width="500" height="500"></canvas><br />
+	Fill Color: <input type="color" onchange="deviceContext.fillStyle = this.value;" /><br />
+	Stroke Color: <input type="color" onchange="deviceContext.strokeStyle = this.value;" /><br />
+	Stroke Width: <input type="number" onchange="deviceContext.lineWidth = this.value;" value="1" /><br />
+	<input type="button" onclick="SetDrawMode(0);" value="pika" /><br />
+	<input type="button" onclick="SetDrawMode(1);" value="crta" /><br />
+	<input type="button" onclick="SetDrawMode(2);" value="krog" /><br />
+	<input type="button" onclick="SetDrawMode(3);" value="kvadrat" /><br />
+</body>
+</html>
